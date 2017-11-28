@@ -34,6 +34,8 @@ import {
 } from './layouts';
 import { DEFAULT_THEME } from './styles/theme.default';
 import { COSMIC_THEME } from './styles/theme.cosmic';
+import {LoginComponent} from './components/auth/login/login.component';
+import { LogoutComponent } from './components/auth/logout/logout.component';
 
 const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
 
@@ -62,6 +64,8 @@ const COMPONENTS = [
   SampleLayoutComponent,
   ThreeColumnsLayoutComponent,
   TwoColumnsLayoutComponent,
+  LoginComponent,
+  LogoutComponent,
 ];
 
 const PIPES = [
